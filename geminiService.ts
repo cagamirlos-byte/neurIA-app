@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { DiscoveredTool, DiscoveryResponse, GroundingSource } from "../types.ts";
+import { DiscoverTool, DiscoveryResponse, GroundingSource } from "../types.ts";
 
 /**
  * Discovers new AI tools based on a query and category using Gemini with Google Search grounding.
