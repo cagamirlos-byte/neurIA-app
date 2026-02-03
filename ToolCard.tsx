@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { AICategory, AITool } from '../types';
+import { AICategory, AITool } from '../types.ts';
 import { ExternalLink, CreditCard, Sparkles, Twitter, Linkedin, Share2, Crown, BadgeCheck, Gem, Coins } from 'lucide-react';
-import { translations } from '../translations';
+import { translations } from '../translations.ts';
 
 interface ToolCardProps {
   tool: AITool;
