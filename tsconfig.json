@@ -15,7 +15,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-alpha"
+    "jsx": "react-jsx",
   },
   "include": ["src", "./index.tsx", "./App.tsx", "./types.ts", "./constants.tsx", "./translations.ts", "./services/geminiService.ts", "./components/ToolCard.tsx", "./components/NeurIALogo.tsx"]
 }
