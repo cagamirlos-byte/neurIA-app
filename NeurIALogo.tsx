@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { generateAppLogo } from '../geminiService';
+import { generateAppLogo } from './geminiService';
 import { Sparkles, Loader2 } from 'lucide-react';
 
 interface NeurIALogoProps {
