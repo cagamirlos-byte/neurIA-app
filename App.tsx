@@ -10,7 +10,7 @@ import {
   Lightbulb, FileText, Palette, Music, Video, Code, BookOpen, TrendingUp, Crown,
   ShieldCheck, Star, Rocket, Download, Settings, Languages, Palette as PaletteIcon, Menu, HelpCircle, Smartphone, Globe2, ExternalLink, Copy, CheckCircle2, Wand2, Share2, Info
 } from 'lucide-react';
-import { discoveredNewTools } from './geminiService';
+import { discoverNewTools } from './geminiService';
 import { translations } from './translations';
 
 type PriceFilter = 'All' | 'Free' | 'Freemium' | 'Paid';
